@@ -106,3 +106,10 @@ Producing a 99.1% likelihood of the flower being a dandelion. This flower does m
 Overall, the algorithm does very well with most dandelion photos. It has a little bit of trouble with side views of all three stages of the flower, 
 but it does well with multiple dandelions and close up photos. 
 
+## Sunflowers
+
+At first glanse the algorithm appears to do well with sunflowers. With the original image producing a 98.3% likelihood of the flowers being sunflowers. 
+But let's see how the algorithm does with different angles and lighting on the sunflowers. 
+
+First let's see how the algoirthm does with both yellow centered sunflowers and black centered sunflowers.
+
