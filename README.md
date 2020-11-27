@@ -108,8 +108,14 @@ but it does well with multiple dandelions and close up photos.
 
 ## Sunflowers
 
-At first glanse the algorithm appears to do well with sunflowers. With the original image producing a 98.3% likelihood of the flowers being sunflowers. 
+At first glance the algorithm appears to do well with sunflowers. With the original image producing a 98.3% likelihood of the flowers being sunflowers. 
 But let's see how the algorithm does with different angles and lighting on the sunflowers. 
 
-First let's see how the algoirthm does with both yellow centered sunflowers and black centered sunflowers.
+First let's see how the algorithm does with both yellow centered sunflowers and black centered sunflowers.
 
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerYellowTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerBlackTrained.png)
+
+As we can see from above, the yellow centered sunflower has a slightly higher percent likelihood compared to the black centered sunflower.
+This is slightly surprising because usually when you think of sunflowers you think of the black centered sunflowers.
+So, I was predicting the black centered sunflowers to have had a higher percent likelihood, in comparison to the yellow centered sunflowers.
