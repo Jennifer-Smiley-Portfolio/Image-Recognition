@@ -10,3 +10,6 @@ From there each flower group was split into a test folder and a train folder. I.
 
 Each flower is producing very high levels of accuracy, except for the dandelion which is only showing a 55% accuracy score. 
 All the other flowers are producing recognition scores around 99% accuracy. 
+
+![Alt text](C:/Users/athen/Documents/CDS 490/DaisyTrained1.png?raw=true "Title")
+
