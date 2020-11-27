@@ -20,6 +20,8 @@ All the other flowers are producing recognition scores around 99% accuracy. The 
 Let's take a closer look at each flower type, starting with daisies.
 The next few images look at the daisy flower from different perspectives. 
 The first shows the result from the ImageAI testing on a photo of daisies in black and white. 
+
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DaisyBlackWhiteTrained.png)
+
 Notice how the algorithm is predicting that the flowers shown are roses, not daisies. 
 Daisies are actually second to last on the list, with a score of 1.2025244534015656% likelihood of the flower being a daisy. 
