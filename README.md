@@ -23,5 +23,17 @@ The first shows the result from the ImageAI testing on a photo of daisies in bla
 
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DaisyBlackWhiteTrained.png)
 
-Notice how the algorithm is predicting that the flowers shown are roses, not daisies. 
+Notice how the algorithm is predicting that the flowers shown are most likely roses, not daisies. 
 Daisies are actually second to last on the list, with a score of 1.2025244534015656% likelihood of the flower being a daisy. 
+Whereas roses are shown with the highest percentage at a 92.7% likelihood. 
+
+This means that the algorithm likely has a difficult time working with black and white photos as most image recognition software does. 
+
+If we look at another angle of the daisy does it still produce an accurate result?
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DaisySideTrained.png)
+
+The above shows, yes, it does. Although it is no longer with such a high accuracy as the first head on daisy photo we entered into the database,
+it still has an accuracy score of 83.6% likelihood of the flower being a daisy, which is correct. 
+
+This proves that the algorithm, with daisies anyways, does work well with side profiles of flowers. 
