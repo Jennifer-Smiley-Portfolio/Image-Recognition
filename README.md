@@ -147,3 +147,17 @@ When we look at the zoomed-out photo of the field of sunflowers we see the algor
 Predicting that the flowers in the field have an 87.2% likelihood of them being sunflowers over the other 4 types of flowers in the model. 
 
 From the two above results, we can conclude that the algorithm does well with zoomed out photos of sunflowers but does not do well with zoomed in photos of sunflowers. 
+
+Lastly, let's see how the algorithm does when the sunflower is closed and when the photo of the sunflower is taken in the dark.
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerClosedTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerDarkTrained.png)
+
+Again, the algorithm appears to have trouble with the flower in its closed position. 
+Producing a likelihood percentage of 11.2% of the flower being a sunflower, 
+in comparison to what it believes with a higher likelihood that the flower is a daisy with an 87.7% likelihood. 
+
+On the other hand, the algorithm does quite nicely with the dark photo of the sunflowers, producing a 85% likelihood towards the flowers being sunflowers.
+
+Overall, the sunflowers are easily identifiable for the algorithm. Unless the sunflowers are in a closed position, seen directly from the side, or are super zoomed in. 
+
