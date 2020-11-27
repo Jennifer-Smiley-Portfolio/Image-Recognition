@@ -33,7 +33,12 @@ If we look at another angle of the daisy does it still produce an accurate resul
 
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DaisySideTrained.png)
 
-The above shows, yes, it does. Although it is no longer with such a high accuracy as the first head on daisy photo we entered into the database,
-it still has an accuracy score of 83.6% likelihood of the flower being a daisy, which is correct. 
+The above shows, yes, it does. Although it is no longer with such a high accuracy as the first head on daisy photo we entered into the database.
+Although, it still has an accuracy score of 83.6% likelihood of the flower being a daisy, which is still fairly high and it does produce the correct result. 
 
 This proves that the algorithm, with daisies anyways, does work well with side profiles of flowers. 
+
+Lastly what if we were to look at how the algorithm does when it is presented with flowers at a distance.
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DaisyDistanceTrained.png)
+
