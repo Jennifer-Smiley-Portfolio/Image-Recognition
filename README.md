@@ -53,3 +53,43 @@ Producing a 99.3% likelihood of the flower being a daisy.
 Moving on to dandelions. This was the most difficult flower for the algorithm. 
 Which makes sense, the flower has three different stages, blooming while yellow, blooming while white and puffy, and lastly when all the seeds have fallen off. 
 So, we need to see how the algorithm does with these different stages. 
+
+First, let's look at dandelions when they are yellow. 
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionCloseUpYellowTrained.png)
+
+As we can see here, the algorithm produces a very high probability of the flower being a dandelion at a 95.6% likelihood. 
+
+What about when they are in their puffy seed stage? 
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionHeadOnTrained.png)
+
+Again, the algorithm does very well. But both of these images were taken of a head on view of the flower. 
+What happens when we take in a picture of a dandelion from a side view?
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionSideTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionTrained1.png)
+
+Here we see the accuracy drop by quite a bit. The yellow dandelion shows the highest likelihood towards a sunflower rather than a dandelion, 
+which it has at a 12.7% likelihood. It is possible this is due to the images in the sunflower training dataset. When the flower looks flat and yellow it produces a 
+higher likelihood for sunflowers over other flowers. 
+But the accuracy also drops for dandelions in the seeded state. Here the likelihood percentage is dropped to 55% likelihood. This still does produce a higher likelihood for the correct answer, but the percentage of accuracy is still low. 
+
+So, we can conclude that the algorithm does not work well for side profiles of dandelions in both stages. 
+
+Now, let's look at how the algorithm does with multiple dandelions close up and far away.
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/Dandelion2TypesTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionDistanceTrained.png)
+
+As we can see from above, the image where there are both yellow and seeded dandelions does very well with a 99.3% likelihood of the flowers being dandelions. 
+The photo where the dandelions are seeded and seedless that are further away does not do as well, only producing a 52% likelihood towards them being dandelions.
+The second highest likelihood being 46.2% towards them being tulips.
+This is likely because the shape of the seedless dandelions, from a distance, are similar to that of tulips. 
+
+So, the algorithm does well when it is produced with an image showing both a yellow dandelion along with a seeded dandelion.
+It does not do as well when the dandelions are further away. 
+
+How does the algorithm do when it sees just a single almost seedless dandelion?
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionDeadTrained.png)
