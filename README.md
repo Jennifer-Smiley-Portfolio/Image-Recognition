@@ -133,3 +133,17 @@ So, again the algorithm appears to have difficulties with the side views of flow
 
 Looking at the second image where the photo is taken slightly below the sunflower, the algorithm does a better job. 
 Here is produces a 99.5% accuracy towards the flower being a sunflower, which is correct.
+
+Now let's see how the algorithm does when the photos are zoomed in on the flower and zoomed out on a field of sunflowers.
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerZoomedInTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerZoomedOutTrained.png)
+
+With the zoomed in photo, we can see that the algorithm is having a difficult time.
+The algorithm only produces a likelihood of 33.9% towards the flower being a sunflower in comparison to the 62% likelihood of the flower being a rose.
+I wonder if it is predicting a rose over the sunflower because the petals are slightly translucent, just like they were with the side view of the sunflower. 
+
+When we look at the zoomed-out photo of the field of sunflowers we see the algorithm did a good job.
+Predicting that the flowers in the field have an 87.2% likelihood of them being sunflowers over the other 4 types of flowers in the model. 
+
+From the two above results, we can conclude that the algorithm does well with zoomed out photos of sunflowers but does not do well with zoomed in photos of sunflowers. 
