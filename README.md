@@ -119,3 +119,17 @@ First let's see how the algorithm does with both yellow centered sunflowers and 
 As we can see from above, the yellow centered sunflower has a slightly higher percent likelihood compared to the black centered sunflower.
 This is slightly surprising because usually when you think of sunflowers you think of the black centered sunflowers.
 So, I was predicting the black centered sunflowers to have had a higher percent likelihood, in comparison to the yellow centered sunflowers.
+
+Now that we know the algorithm does well with both types of sunflowers, let's see how it does with side views and lower views of a sunflower.
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerSideTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerLowViewTrained.png)
+
+Similarly to the dandelions, the algorithm does not appear to do well with side views of sunflowers.
+Only producing a 6.9% likelihood of the flower being a sunflower in comparison to the algorithms higher likelihood of it being a rose, 
+where it produces a likelihood of 91.1%.
+
+So, again the algorithm appears to have difficulties with the side views of flowers. 
+
+Looking at the second image where the photo is taken slightly below the sunflower, the algorithm does a better job. 
+Here is produces a 99.5% accuracy towards the flower being a sunflower, which is correct.
