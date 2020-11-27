@@ -93,3 +93,16 @@ It does not do as well when the dandelions are further away.
 How does the algorithm do when it sees just a single almost seedless dandelion?
 
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionDeadTrained.png)
+
+As we can see above, the algorithm is able to identify the dandelion when it is at the final stages of the flower.
+So, the algorithm works well individual on all three stages of the dandelion. 
+
+The algorithm even does well when the photos are in black and white. 
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionBlackWhiteTrained.png)
+
+Producing a 99.1% likelihood of the flower being a dandelion. This flower does much better than the daisy which had a 1.2% likelihood of the flower being a daisy. 
+
+Overall, the algorithm does very well with most dandelion photos. It has a little bit of trouble with side views of all three stages of the flower, 
+but it does well with multiple dandelions and close up photos. 
+
