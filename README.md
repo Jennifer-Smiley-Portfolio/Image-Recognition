@@ -18,6 +18,9 @@ All the other flowers are producing recognition scores around 99% accuracy. The 
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipTrained1.png)
 
 Let's take a closer look at each flower type, starting with daisies.
+
+## Daisies
+
 The next few images look at the daisy flower from different perspectives. 
 The first shows the result from the ImageAI testing on a photo of daisies in black and white. 
 
@@ -42,3 +45,11 @@ Lastly what if we were to look at how the algorithm does when it is presented wi
 
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DaisyDistanceTrained.png)
 
+Again, we see that the algorithm does very well with images of daisies at a distance. 
+Producing a 99.3% likelihood of the flower being a daisy. 
+
+## Dandelions
+
+Moving on to dandelions. This was the most difficult flower for the algorithm. 
+Which makes sense, the flower has three different stages, blooming while yellow, blooming while white and puffy, and lastly when all the seeds have fallen off. 
+So, we need to see how the algorithm does with these different stages. 
