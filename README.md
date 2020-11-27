@@ -11,8 +11,8 @@ From there each flower group was split into a test folder and a train folder. I.
 Each flower is producing very high levels of accuracy, except for the dandelion which is only showing a 55% accuracy score. 
 All the other flowers are producing recognition scores around 99% accuracy. The results from the first run are seen below. 
 
-![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/DaisyTrained1.png)
-![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/DandelionTrained1.png)
-![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/SunflowerTrained1.png)
-![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/RoseTrained1.png)
-![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/TulipTrained1.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DaisyTrained1.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/DandelionTrained1.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/SunflowerTrained1.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseTrained1.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipTrained1.png)
