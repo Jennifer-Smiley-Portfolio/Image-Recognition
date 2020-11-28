@@ -212,3 +212,25 @@ Overall, the algorithm was able to correctly guess the correct flower with all o
 
 Like roses, tulips have different shapes. 
 There is the classic tulip shape where the petals are upright, then there are tulips that resemble lilies where the petals are open. 
+Let's see how the algorithm does with different tulips.
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipClassicPeachTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipPeachTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipRedTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipYellowTrained.png)
+
+The results from above show that the first tulip is mistaken for a rose by the algorithm. 
+Producing a 52.8% likelihood toward the flower being a rose over a 37.9% likelihood of it being a tulip, which is what it is. 
+This is odd because it does appear to be able to recognize the other three images of the tulips. 
+The other three have a high likelihood of the flower being a tulip and a second guess of them being roses at a much lower percentage. 
+The red tulip is the one the algorithm appears to have the second most difficulty with as it is only predicting at a 74.6% toward the flower being a tulip, but it still guesses correctly. 
+
+Now let's take a look at how the algorithm does to different tulip pictures. Ones where the photo is in black in white, a drawing, and from different angles.  
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipBlackWhiteTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipDrawingTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipBouquetTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipBudTrained.png)
+
+
+
