@@ -161,3 +161,31 @@ On the other hand, the algorithm does quite nicely with the dark photo of the su
 
 Overall, the sunflowers are easily identifiable for the algorithm. Unless the sunflowers are in a closed position, seen directly from the side, or are super zoomed in. 
 
+## Roses
+
+Moving on to roses. There are two things that might end up confusing the algorithm. 
+One thing that might confuse the algorithm are the different colors of roses. 
+Roses come in all different colors so if the algorithm relies heavily on color this will cause a problem. 
+The other thing that might confuse the algorithm are the different shapes of roses. 
+For example, dog-roses and beach roses both have a larger center with fewer petals. 
+Whereas classic roses have more petals, and their centers are often hidden by the petals. 
+
+So, let's first see how the algorithm deals with the first problem of the different colors. 
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RosePinkTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseRedTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseTrained1.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseYellowTrained.png)
+
+The algorithm appears to do the best with the pink and purple roses, identifying them with the highest levels of likelihood.
+The red rose then comes next with a 95.9% likelihood of it being a rose. Followed up with the yellow rose at 80.5% likelihood. 
+The second most likely flower for the pink, purple, and red roses are tulips which makes sense because some roses do look similar to tulips in shape. 
+So, it makes sense that the algorithm would have it in the second spot. 
+The yellow rose has a dandelion as the second spot, likely due to the color as one stage of dandelions are yellow. 
+
+Now, let's see how the algorithm does when there are different shapes of roses and when the photo is black and white. 
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseOldTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseBouquetTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseBlackWhiteTrained.png)
+
