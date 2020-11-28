@@ -230,7 +230,32 @@ Now let's take a look at how the algorithm does to different tulip pictures. One
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipBlackWhiteTrained.png)
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipDrawingTrained.png)
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipBouquetTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipBottomTrained.png)
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipBudTrained.png)
 
+Similarly to the dandelion, the black and white photo of the tulips does very well. Producing a 99.3% accuracy toward the flowers being tulips.
+The algorithm was even able to correctly predict the drawing of the flower to a 97.7% likelihood of it being a tulip. 
+The algorithm then started to struggle with the next three photos.
+The photo with the tulips in a bouquet, did okay. The algorithm predicted at a 64.2% likelihood that the flowers were tulips, which is correct but not at a very high accuracy. 
+The algorithm incorrectly predicted that the photo underneath the flower was a rose at 92.6% accuracy, which is way off, and only giving a tulip a 7.3% likelihood. 
+The algorithm then incorrectly predicted the bud of the tulip as a 71.7% likelihood of it being a rose, and only 16.8% likelihood of it being a tulip bud. 
+While the algorithm incorrectly predicted the two photos it does make sense why it did. 
+The underneath of both roses and tulips look very similar, and so do their buds. 
+So, while the algorithm was wrong it was a mistake that most humans could have made. 
+At the same time, the algorithm should be better at recognizing flowers than humans are.
 
+Lastly, let's see how the algorithm does when looking at tulips from a distance and up close. 
 
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipDistanceTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/TulipCloseUpTrained.png)
+
+The algorithm does well with the photo of the tulips at a distance, predicting with 97% confidence that the flowers are tulips. 
+When given a close-up photo of a tulip the algorithm struggles a little more. Here it only predicts with 78.7% confidence that they are tulips.
+So, the algorithm was able to correctly identify what flowers were shown when given images of tulips both up close and at a distance, although it struggled a little with the photos of the inside of the tulip.
+
+## Conclusion
+
+Overall, the algorithm does a very good job at predicting the types of flowers. It struggles a little when given odd angles and the occasional black and white photo, but it usually still predicts the correct flower. There were only a few times when the algorithm did not predict the correct flower and most of those times humans would have made the same mistake. 
+
+One solution to this problem would be adding in more photos of similar angles and photo type to the training set so the algorithm can have more of those types of photos to train on so next time it can accurately predict the flowers from those angles.  
+ 
