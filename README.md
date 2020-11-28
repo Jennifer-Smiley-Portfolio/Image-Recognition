@@ -189,3 +189,15 @@ Now, let's see how the algorithm does when there are different shapes of roses a
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseBouquetTrained.png)
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseBlackWhiteTrained.png)
 
+The first photo is a rose nearing the end of its life span and the algorithm does a pretty good job with this one, producing a 95% likelihood of the flower being a rose.
+The next photo is one of a bouquet of roses. I chose this photo because I was sure the algorithm would think they were tulips by the shape of the roses, but I was wrong.
+The algorithm did a good job of recognizing they were roses with a 84.2% likelihood and it only had tulips at a 13.4% likelihood.
+The third photo is a black and white photo of a different type of rose, one that is more open with fewer petals and a larger center. 
+As we can see, the algorithm did have a little more trouble with this photo. 
+Only producing a 46.5% likelihood of the flower being a rose with the second highest likelihood of 43.6% toward it being a dandelion. 
+So, the algorithm did a better job with roses than it did with daisies for black and white images but it was not as good as the other two flowers.
+
+Finally, let's look at how the algorithm does with roses at a distance and up close.
+
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseDistanceTrained.png)
+![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseZoomedInTrained.png)
