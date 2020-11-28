@@ -201,3 +201,11 @@ Finally, let's look at how the algorithm does with roses at a distance and up cl
 
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseDistanceTrained.png)
 ![alt text]( https://github.com/jsmiley2/CDS490Project/blob/main/Results/RoseZoomedInTrained.png)
+
+Similarly, to the distance results from the dandelions, the algorithm is also having a difficult time with the roses at a distance. 
+The algorithm barely thinks that flowers are roses over tulips with a 45.7% toward roses and a 45.5% toward tulips. 
+On the other hand, the algorithm appears to do very well with roses close up. Producing a 97% likelihood toward the flower being a rose.
+
+Overall, the algorithm was able to correctly guess the correct flower with all of the above images although it had some trouble with the black and white photos and the roses at a distance. 
+
+## Tulips
