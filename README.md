@@ -209,3 +209,6 @@ On the other hand, the algorithm appears to do very well with roses close up. Pr
 Overall, the algorithm was able to correctly guess the correct flower with all of the above images although it had some trouble with the black and white photos and the roses at a distance. 
 
 ## Tulips
+
+Like roses, tulips have different shapes. 
+There is the classic tulip shape where the petals are upright, then there are tulips that resemble lilies where the petals are open. 
